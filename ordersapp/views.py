@@ -13,8 +13,6 @@ from ordersapp.forms import OrderItemForm
 from ordersapp.models import Order, OrderItem
 
 
-from django.contrib.auth.mixins import LoginRequiredMixin
-
 class OrderList(LoginRequiredMixin, ListView):
     model = Order
 
@@ -112,6 +110,7 @@ class OrderItemsUpdate(UpdateView):
             self.object.delete()
 
         return super(OrderItemsUpdate, self).form_valid(form)
+
 
 class OrderDelete(DeleteView):
     model = Order
