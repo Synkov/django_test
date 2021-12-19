@@ -13,6 +13,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name="order",
             name="is_active",
-            field=models.BooleanField(db_index=True, default=True, verbose_name="активен"),
+            field=models.BooleanField(default=True, verbose_name="активен"),
         ),
     ]
