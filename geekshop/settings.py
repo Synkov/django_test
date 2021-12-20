@@ -208,21 +208,17 @@ SOCIAL_AUTH_GITHUB_SECRET = github_auth["client_secret"]
 
 # Django Debug Toolbar --->
 if DEBUG:
-    INSTALLED_APPS.extend(
-        [
-            "debug_toolbar",
-            "template_profiler_panel",
-            "django_extensions",
-        ]
-    )
+    INSTALLED_APPS.extend([
+        "debug_toolbar",
+        "template_profiler_panel",
+        "django_extensions",
+    ])
 
 
 if DEBUG:
-    MIDDLEWARE.extend(
-        [
-            "debug_toolbar.middleware.DebugToolbarMiddleware",
-        ]
-    )
+    MIDDLEWARE.extend([
+        "debug_toolbar.middleware.DebugToolbarMiddleware",
+    ])
 
 # Debgu tool bar settings
 if DEBUG:
@@ -251,6 +247,7 @@ if DEBUG:
         "debug_toolbar.panels.profiling.ProfilingPanel",
         "template_profiler_panel.panels.template.TemplateProfilerPanel",
     ]
+<<<<<<< HEAD
 # <--- Django Debug Toolbar
 
 CACHE_MIDDLEWARE_ALIAS = "default"
@@ -267,3 +264,6 @@ CACHES = {
 }
 
 LOW_CACHE = True
+=======
+# <--- Django Debug Toolbar
+>>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
