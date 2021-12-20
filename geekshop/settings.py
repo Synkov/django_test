@@ -248,6 +248,7 @@ if DEBUG:
         "template_profiler_panel.panels.template.TemplateProfilerPanel",
     ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 # <--- Django Debug Toolbar
 
 CACHE_MIDDLEWARE_ALIAS = "default"
@@ -264,6 +265,9 @@ CACHES = {
 }
 
 LOW_CACHE = True
+=======
+# <--- Django Debug Toolbar
+>>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
 =======
 # <--- Django Debug Toolbar
 >>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf

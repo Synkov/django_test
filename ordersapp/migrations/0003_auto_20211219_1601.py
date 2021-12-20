@@ -7,7 +7,11 @@ class Migration(migrations.Migration):
 
     dependencies = [
 <<<<<<< HEAD
+<<<<<<< HEAD
         ("ordersapp", "0002_auto_20211212_2136"),
+=======
+        ('ordersapp', '0002_auto_20211212_2136'),
+>>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
 =======
         ('ordersapp', '0002_auto_20211212_2136'),
 >>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
@@ -16,9 +20,15 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterField(
 <<<<<<< HEAD
+<<<<<<< HEAD
             model_name="order",
             name="is_active",
             field=models.BooleanField(db_index=True, default=True, verbose_name="активен"),
+=======
+            model_name='order',
+            name='is_active',
+            field=models.BooleanField(db_index=True, default=True, verbose_name='активен'),
+>>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
 =======
             model_name='order',
             name='is_active',

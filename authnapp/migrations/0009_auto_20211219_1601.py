@@ -2,7 +2,10 @@
 
 import datetime
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
 =======
 >>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
 from django.db import migrations, models
@@ -13,7 +16,11 @@ class Migration(migrations.Migration):
 
     dependencies = [
 <<<<<<< HEAD
+<<<<<<< HEAD
         ("authnapp", "0008_auto_20211213_2254"),
+=======
+        ('authnapp', '0008_auto_20211213_2254'),
+>>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
 =======
         ('authnapp', '0008_auto_20211213_2254'),
 >>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
@@ -22,12 +29,18 @@ class Migration(migrations.Migration):
     operations = [
         migrations.AlterField(
 <<<<<<< HEAD
+<<<<<<< HEAD
             model_name="shopuser",
             name="activation_key_expires",
             field=models.DateTimeField(
                 default=datetime.datetime(2021, 12, 21, 16, 1, 57, 967586, tzinfo=utc),
                 verbose_name="актуальность ключа",
             ),
+=======
+            model_name='shopuser',
+            name='activation_key_expires',
+            field=models.DateTimeField(default=datetime.datetime(2021, 12, 21, 16, 1, 57, 967586, tzinfo=utc), verbose_name='актуальность ключа'),
+>>>>>>> 3a9bad6716dba8f084b937e336558da48567edcf
 =======
             model_name='shopuser',
             name='activation_key_expires',
